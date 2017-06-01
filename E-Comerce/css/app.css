@@ -1,0 +1,457 @@
+.sem_no_estoque{
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.sem_no_estoque:hover::after {
+    visibility: visible
+}
+
+
+
+.sem_no_estoque::after {
+    background: url('../img/indisponivel.png') no-repeat;
+    background-position: 50% 50%;
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+    background-color: #929292;
+    opacity: 0.9;
+}
+.item_menu_home{
+    background-color: #ed1c24;
+    color: #fff;
+
+    font-size: 12pt;
+
+}
+.item_sub_menu_home{
+    background-color: #ed1c24;
+    color: #fff;
+    border: 0px;
+    border-color: #ed1c24;
+    font-size: 12pt;
+
+
+}
+.button{
+    margin: 0px;
+}
+
+.item_menu_home input{
+    font-size: 12pt;
+
+}
+.item_menu_home button{
+    font-size: 10pt;
+}
+.item_menu_home a {
+    color: #fff;  
+
+}
+.item_menu_home a:hover{
+    color: #0a0a0a;  
+    background-color: #fff;
+    elevation: below;
+}
+.navegacao_produto {
+    padding-top: 5px;
+}
+.navegacao_nome_produto {
+    display:block;
+    text-align: center;
+}
+.navegacao_title {
+    color: #0a0a0a;
+    /*color: #ed1c24;*/
+
+    font-size: 24pt;
+    margin-top: -18px;
+    margin-bottom: -18px;
+}
+.navegacao_title b{
+    color: #ed1c24;
+}
+
+.navegacao_preco_vista {
+    color: red;
+    font-size: 20pt;
+    text-align: center;
+    display:block
+
+
+}
+
+.navegacao_preco_parcelas {
+    color: #929292;
+    text-align: center;
+    display: inline;
+    display:block
+
+}
+
+.navegacao_box_frete_gratis {
+    text-align: center;
+    text-decoration: underline;
+    display:block;
+}
+
+.navegacao_desconto_flutuante {
+    padding-top: 11px;
+    padding-left: 8px;
+    float: right;
+    border-radius: 50%;
+    color: #f1f1f1;
+
+    height: 45px;
+    width: 45px;
+    background-color: #ed1c24;
+}
+.card{
+    border-color: #fff;
+}
+.card:hover{
+    border-color: #e2e2e2;
+}
+
+.marcas-list li{
+    list-style: none;
+    display: inline;
+}
+footer{
+    background-color: #ed1c24;
+    color: #fff;
+    padding-bottom: 40px;
+    padding-top: 8px;
+}
+.news{
+
+    padding: 8px 30px 8px 30px;
+
+}
+.news input{
+    color: #929292;
+}
+.atendimento{
+    text-align: center;
+    height: 50px;
+    box-shadow: -1px 0px 0px 0px rgba(0,0,0,0.75);
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+.atendimento li{
+    color: #fff;
+    font-size: 14pt;
+    list-style: none;
+    box-shadow: -6px 0px 0px 0px rgba(0,0,0,0.75);
+}
+.institucional{
+
+
+}
+.institucional a, li{
+    color: #fff;
+    font-size: 12pt;
+    list-style: none;
+}
+.fod{
+    background-color: #343434;
+}
+.pagamento{
+    color: #0a0a0a;
+    background-color: #fff;
+    padding: 10px 30px 10px 10px;
+}
+.login a{
+    color: #0a0a0a;
+    font-size: 10pt;
+}
+.login{
+    padding: 10px 6px 10px 24px;
+
+}
+.breads{
+    padding: 15px 5px 5px 25px;
+
+}
+.sems_no_estoque{
+    color: black;
+    background-color: #929292;
+    font-size: 10pt;
+    padding-left: 4px;
+
+}
+
+.pro_preco_ct_vista {
+
+    font-size: 24pt;
+    color: red;
+    font-weight: bold;
+}
+
+.pro_preco_ct_parcela {
+    color: #343434;
+    font-size: 10pt;
+}
+
+.pro_preco_ct_desconto {
+    color: #929292;
+    font-size: 8pt;
+
+}
+
+.pro_preco_ct_btn_comprar {
+    color: #fff;
+    font-size: 20pt;
+    background-color: green
+
+}
+.pro_preco_ct_widget{
+    margin-top: 15px;
+
+    margin-left: -19px;
+}
+.pro_preco_ct_widget p {
+    color: #929292;
+    font-size: 11pt;
+
+
+}
+
+.pro_preco_ct_frete_gratis {
+    color: #fff;
+    background-color: red;
+    margin-top: 15px;
+}
+
+.pro_ct_OK_frete {
+
+}
+.redes{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+iframe {
+    width: 100%;
+}
+
+.btn_comprar{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: green;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 20pt;
+    padding-left:20px;
+    padding-right:20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.atendimento{
+    color:#ed1c24;
+    font-size:14pt;
+}
+.cidade_do_post {
+    display: inline;
+    color: #929292;
+    font-size: 12pt;
+}
+
+.comentario_post {
+    display: inline;
+    color: #343434;
+    font-size: 15pt;
+}
+
+.nome_post {
+    font-size: 17pt;
+    color: #444344;
+}
+.primary_row{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu-icon.dark {
+    margin-top: 7px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0px;
+}
+.menu-icon.dark::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 6px;
+    background: #0a0a0a;
+    box-shadow: 0 17px 0 #0a0a0a, 0 34px 0 #0a0a0a;
+    content: ''; }
+.menu-icon.dark:hover::after {
+    background: #f1f1f1;
+    box-shadow: 0 17px 0 #f1f1f1, 0 34px 0 #f1f1f1; }
+
+.pesquisa input{
+    width: 250px;
+    height: 55px;
+}    
+.img_pesquisa_icone{
+    padding-top: -1px;
+    margin-top: -5px;
+}
+.img_pesquisa {
+    border-radius: 1px;
+    background-color: #ed1c24;
+    margin-top: 15px;
+    margin:0px;
+    height: 39px; 
+}
+
+.atendimento_pensquisa {
+
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.atendimento_footer{
+    text-align: right;
+}
+
+.atendimento_lista {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    color: #0a0a0a;
+
+}
+.li {
+    float: left;
+}
+
+.botao_newslater {
+    padding-bottom: 0.65em;
+    padding-top:0.68em; 
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 0px;
+    background-color: #fff;
+    color: #0a0a0a;
+    cursor: pointer;
+}
+.botao_newslater:hover{
+
+    background-color: #0a0a0a; 
+    color: #fff;
+
+
+}
+@media screen and (max-width: 0em), screen and (min-width: 63.99em) {
+    .show-for-xsmall {
+        display: none !important; } }
+.comentarios {
+    padding-left: 15px;
+}
+
+.navegacao_estoque_flutuante {
+    padding: 2px 2px 2px 2px;
+    float: left;
+
+    color: #f1f1f1;
+
+
+    background-color: #929292;
+}
+
+.passos {
+    text-align: center;
+    color: #929292;
+}
+
+.passos_ativos {
+    text-align: center;
+    color: #0a0a0a;
+}
+
+.navegacao_produto_carrinho {
+    text-align: left;
+}
+
+.finalizar_compra {
+    padding: 10px 10px 10px 10px;
+    background-color: green;
+    display: inline;
+    float: right;
+    cursor: pointer;
+}
+
+.continuar_comprando {
+    padding: 10px 10px 10px 10px;
+    background-color: red;
+    display: inline;
+    float: right;
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+.desconto_cupom {
+    padding: 10px 10px 10px 10px;
+    float: right;
+
+}
+
+
+.bottom_cadastrar {
+    padding: 10px 10px 10px 10px;
+
+    margin-top: 20px;
+    color: #fff;
+    background-color: green;
+    border: 0px;
+    cursor: pointer;
+}
+.bottom_cadastrar:hover{
+    color: #0a0a0a;
+}
+
+hr.feito{
+    border-top: 2px solid #000;
+}.modo_de_pagar {
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #c0c0c0;
+    cursor: pointer;
+    margin-bottom: 15px;}
+
+.card_pagamento {
+    text-align: center;
+    border: 1px solid #444344;
+    cursor: pointer;
+}
+.card_pagamento:hover{
+    border: 1px solid #e2e2e2;
+}
+.num_pedido {
+    text-align: center;
+    color: white;
+    background-color: #ed1c24;
+    padding: 5px 5px 5px 5px;
+    font-size: 17pt;
+}
+.total_pedido {
+    padding: 5px 5px 0px 5px;
+    background-color: white;
+    border: 1px solid #444344;
+    margin-left: 0px;
+    text-align: center;
+}

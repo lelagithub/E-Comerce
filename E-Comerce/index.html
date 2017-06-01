@@ -1,0 +1,482 @@
+<!doctype html>
+<html class="no-js" lang="pt-br" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Foundation for Sites</title>
+
+        <link rel="stylesheet" href="css/foundation.css">
+        <link rel="stylesheet" href="css/app.css">
+
+        <!-- -->
+        <link rel="stylesheet"  href="src/css/lightslider.css"/>
+        <style>
+            ul{
+                list-style: none outside none;
+                padding-left: 0;
+                margin: 0;
+            }
+            .demo .item{
+                margin-bottom: 10px;
+            }
+            .content-slider li{
+                background-color: #FFF;
+                text-align: center;
+                color: #FFF;
+            }
+            .content-slider h3 {
+                margin: 0;
+                padding: 10px 0;
+            }
+            .demo{
+                width: 100%;
+            }
+        </style>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="src/js/lightslider.js"></script> 
+        <script>
+            $(document).ready(function () {
+                $("#content-slider").lightSlider({
+                    loop: true,
+                    keyPress: true
+                });
+                $('#image-gallery').lightSlider({
+                    gallery: true,
+                    item: 1,
+                    thumbItem: 1,
+                    slideMargin: 1,
+                    speed: 500,
+                    auto: true,
+                    loop: true,
+                    onSliderLoad: function () {
+                        $('#image-gallery').removeClass('cS-hidden');
+                    }
+                });
+            });
+        </script>
+
+    </head>
+
+   <body>
+  
+        <div class="row">
+            <div class="small-12 columns primary_row">
+                <div class="small-4 medium-3 large-2 column">
+                    <img src="img/logomx.png" style="min-width: 20px;" alt="">
+                </div>
+                <div class="show-for-large large-3 columns atendimento_pensquisa">
+                    <ul class="menu">
+                        <li ><input type="search" placeholder="oque procura?" style="width: 200px;" ></li>
+                        <li ><a class="img_pesquisa" href="pesquisa.html"><img class="img_pesquisa_icone" src="img/loupe_79257.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="show-for-medium medium-3 large-3 columns atendimento">
+                    <a href="#"  style="color: #ed1c24;">Atendimento ao Cliente</a>
+                </div>
+
+                <div class="small-6 medium-4 large-3 column atendimento">
+                    <a class="" href="#" style="color: #ed1c24;">Olá faça seu login &#9660</a>
+                </div>
+                <div class="small-2 medium-2 large-1 column atendimento">
+                    <img class="" src="img/carr.png" alt="" style="max-height: 50px; max-width: 50px;">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row expanded item_menu_home">
+            <div class="small-12 columns">
+                <div class="title-bar item_menu_home" data-responsive-toggle="example-menu" data-hide-for="large">
+                    <button class="menu-icon dark" type="button" data-toggle="example-menu"></button>
+
+
+                    <div class="top-bar-right" >
+                        <ul class="menu pesquisa">
+                            <li class=""><input type="search" placeholder="oque procura?"></li>
+                            <li><a  href="pesquisa.html"><img style="max-height: 33px;" src="img/loupe_79257.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class=" top-bar item_menu_home" id="example-menu">
+                    <div class="top-bar-left ">
+
+                        <ul class="vertical dropdown menu show-for-xsmall" data-dropdown-menu>
+
+                            <li class="item_menu_home">
+                                <a href="#">EQUIPAMENTOS</a>
+                                <ul class="menu vertical item_sub_menu_home">
+                                    <li class="item_sub_menu_home"><a href="pesquisa.html">Botas</a></li>
+                                    <li class="item_sub_menu_home"><a href="#">Capacetes</a></li>
+                                    <li class="item_sub_menu_home"><a href="#">Luvas</a></li>
+                                </ul>
+                            </li>
+                            <li class="item_menu_home">
+                                <a href="#">PEÇAS</a>
+                                <ul class="menu vertical  item_sub_menu_home">
+                                    <li class="item_sub_menu_home"><a href="#">Luvas</a></li>  </ul>
+                            </li> 
+
+                            <li class="item_menu_home"><a href="../pesquisa.html">ACESSÓRIOS</a></li>
+                            <li class="item_menu_home"><a href="#">ADESIVOS</a></li>
+                            <li class="item_menu_home"><a href="#">ÓLEOS</a></li>
+                            <li class="item_menu_home"><a href="#">ROUPA CASUAL</a></li>
+                            <li class="item_menu_home"><a href="#">OUTLET</a></li>
+                        </ul>
+
+                        <ul class=" dropdown menu show-for-large" data-dropdown-menu>
+
+                            <li class="item_menu_home">
+                                <a href="#">EQUIPAMENTOS</a>
+                                <ul class="menu vertical item_sub_menu_home">
+                                    <li class="item_sub_menu_home"><a href="pesquisa.html">Botas</a></li>
+                                    <li class="item_sub_menu_home"><a href="#">Capacetes</a></li>
+                                    <li class="item_sub_menu_home"><a href="#">Luvas</a></li>
+                                </ul>
+                            </li>
+                            <li class="item_menu_home">
+                                <a href="#">PEÇAS</a>
+                                <ul class="menu vertical  item_sub_menu_home">
+                                    <li class="item_sub_menu_home"><a href="#">Luvas</a></li>  </ul>
+                            </li> 
+
+                            <li class="item_menu_home"><a href="../pesquisa.html">ACESSÓRIOS</a></li>
+                            <li class="item_menu_home"><a href="#">ADESIVOS</a></li>
+                            <li class="item_menu_home"><a href="#">ÓLEOS</a></li>
+                            <li class="item_menu_home"><a href="#">ROUPA CASUAL</a></li>
+                            <li class="item_menu_home"><a href="#">OUTLET</a></li>
+                        </ul>
+                    </div>
+
+                </div></div>
+        </div>
+
+        <div class="row">
+
+            <div class="large-12 columns">
+                <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                    <ul class="orbit-container">
+                        <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                        <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                        <li class="is-active orbit-slide">
+                            <img class="orbit-image" src="img/1.jpg" alt="Space">
+
+                        </li>
+                        <li class="orbit-slide">
+                            <img class="orbit-image" src="img/2.jpg" alt="Space">
+
+                        </li>
+                        <li class="orbit-slide">
+                            <img class="orbit-image" src="img/3.jpg" alt="Space">
+
+                        </li>
+                    </ul>                
+                </div>
+
+
+            </div>
+        </div>
+        <div class="row">
+            <hr> <div class="navegacao_title">Produtos em <b>Destaque</b></div><hr>
+            <div class="row small-up-2 medium-up-3">
+                <div class="column">
+                    <div class="card">
+
+                        <div class="card-section navegacao_produto">
+                            <div class="navegacao_desconto_flutuante">
+                                12% </div>
+                            <img src="img/bota-gaerne-gx-1-24069p.jpg" alt="">
+                            <span class="navegacao_nome_produto"><b>Bota Gaerne GX-1</b></span>
+                            <div>
+                                <span class="navegacao_preco_vista"><b>R$ 999,90  </b><s style="color:#999999; font-size:12px; display:block">R$ 1.190,00</s></span>
+                                <span class="navegacao_preco_parcelas">12x R$ 83,33</span>
+                                <span class="navegacao_box_frete_gratis"> Frete grátis </span>              
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-section navegacao_produto">
+                            <div class="navegacao_desconto_flutuante">
+                                46% </div>
+                            <img src="img/capacete-fly-trophy-lite-4067.jpg" alt="">
+                            <span class="navegacao_nome_produto"><b>Capacete Fly Trophy</b></span>
+                            <div >
+                                <span class="navegacao_preco_vista"><b>R$ 399,90  </b><s style="color:#999999; font-size:12px; display:block">R$690,00</s></span>
+                                <span class="navegacao_preco_parcelas">12x R$ 33,25</span>
+                                <span class="navegacao_box_frete_gratis"> Frete grátis </span>              
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-section navegacao_produto">
+                            <div class="navegacao_desconto_flutuante">
+                                46% </div>
+                            <img src="img/capacete-fly-trophy-lite-6776.jpg" alt="">
+                            <span class="navegacao_nome_produto"><b>Capacete Fly Trophy</b></span>
+                            <div >
+                                <span class="navegacao_preco_vista"><b>R$ 399,90  </b><s style="color:#999999; font-size:12px; display:block">R$690,00</s></span>
+                                <span class="navegacao_preco_parcelas">12x R$ 33,25</span>
+                                <span class="navegacao_box_frete_gratis"> Frete grátis </span>               
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="columns">
+                    <div class="card">
+                        <div class="card-section navegacao_produto">
+                            <div class="navegacao_desconto_flutuante">
+                                16% </div>
+                            <img src="img/oculos-fox-main-16138p.jpg" alt="">
+                            <span class="navegacao_nome_produto"><b>Oculos FOX</b></span>
+                            <div >
+                                <span class="navegacao_preco_vista"><b>R$ 210,00  </b><s style="color:#999999; font-size:12px; display:block">R$ 250,00</s></span>
+                                <span class="navegacao_preco_parcelas">12x R$ 17,05</span>
+                                <span class="navegacao_box_frete_gratis"> Frete grátis </span>              
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="columns">
+                    <div class="card">
+                        <div class="card-section navegacao_produto">
+                            <div class="navegacao_desconto_flutuante">
+                                45% </div>
+                            <img src="img/capacete-fox-v1-race-7050p.jpg" alt="">
+                            <span class="navegacao_nome_produto"><b>Capacete FOX V1</b></span>
+                            <div >
+                                <span class="navegacao_preco_vista"><b>R$ 434,50  </b><s style="color:#999999; font-size:12px; display:block">R$ 740,00</s></span>
+                                <span class="navegacao_preco_parcelas">12x R$ 36,20</span>
+                                <span class="navegacao_box_frete_gratis"> Frete grátis </span>              
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="card">
+                        <div class="card-section navegacao_produto">
+                            <div class="navegacao_desconto_flutuante">
+                                24% </div>
+                            <img src="img/oculos-sol-oakley-sliver-f-grey-ink-14266p.jpg" alt="">
+                            <span class="navegacao_nome_produto"><b>Oculos de sol oakley</b></span>
+                            <div >
+                                <span class="navegacao_preco_vista"><b>R$ 199,50</b><s style="color:#999999; font-size:12px; display:block">R$ 250,00</s></span>
+                                <span class="navegacao_preco_parcelas">12x R$ 16,65</span>
+                                <span class="navegacao_box_frete_gratis"> Frete grátis </span>              
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="columns">
+                    <div class="card">
+                        <div class="card-section navegacao_produto">
+                            <div class="navegacao_desconto_flutuante">
+                                40% </div>
+                            <img src="img/colete-asw-maxx-lite-17-23297p.jpg" alt="">
+                            <span class="navegacao_nome_produto"><b>Colete ASW max</b></span>
+                            <div >
+                                <span class="navegacao_preco_vista"><b>R$ 550,00</b><s style="color:#999999; font-size:12px; display:block">R$ 795,00</s></span>
+                                <span class="navegacao_preco_parcelas">12x R$ 45,83</span>
+                                <span class="navegacao_box_frete_gratis"> Frete grátis </span>              
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <hr> <div class="navegacao_title">Grades <b>Marcas</b></div><hr>
+
+            <div class="demo small-12 columns">
+
+                <div class="item">
+                    <ul id="content-slider" class="content-slider">
+                        <li><img src="img/asw.jpg" alt=""></li>
+                        <li><img src="img/15_bt.jpg" alt=""></li>
+                        <li><img src="img/69_bt.jpg" alt=""></li>
+                        <li><img src="img/bell.jpg" alt=""></li>
+                        <li><img src="img/gopro.jpg" alt=""></li>
+                        <li><img src="img/oakley.jpg" alt=""></li>
+                        <li><img src="img/procircuit.jpg" alt=""></li>
+                        <li><img src="img/protork.jpg" alt=""></li>
+                        <li><img src="img/reddragon.jpg" alt=""></li>
+                        <li><img src="img/scot.jpg" alt=""></li>
+                        <li><img src="img/twinair.jpg" alt=""></li>
+                        <li><img src="img/fox.jpg" alt=""></li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <hr>
+
+        </div>
+        <div class="row">
+            <div class=" small-4 large-4 column">
+                <img src="img/1p.jpg" alt="">
+
+            </div>
+            <div class=" small-4 large-4 column">
+                <img src="img/2p.jpg" alt="">
+
+            </div>
+            <div class=" small-4 large-4 column">
+                <img src="img/3p.jpg" alt="">
+
+            </div>
+        </div>
+        <div class="row">
+            <hr><div class="navegacao_title">Mais <b>Vendidos</b></div><hr>
+            <div class="row small-up-2 medium-up-3">
+
+
+                <div class="columns ">
+                    <div class="card">
+                        <div class="card-section navegacao_produto">
+
+                            <img src="img/kit-calca-camisa-asw-factory-17-24116p.jpg" alt="">
+                            <span class="navegacao_nome_produto"><b>Kit Calça e Camisa ASW</b></span>
+                            <div >
+                                <span class="navegacao_preco_vista"><b>R$ 232,00</b></span>
+                                <span class="navegacao_preco_parcelas">12x R$ 19,33</span>
+                                <span class="navegacao_box_frete_gratis"> Frete grátis </span>              
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="columns ">
+                    <div class="card">
+                        <div class="card-section navegacao_produto">
+                            <div class="navegacao_desconto_flutuante">
+                                45% </div>
+                            <img src="img/joelheira-alpinestars-moab-8069p.jpg" alt="">
+                            <span class="navegacao_nome_produto"><b>Joelheira Alpinestars</b></span>
+                            <div >
+                                <span class="navegacao_preco_vista"><b>R$ 124,00</b><s style="color:#999999; font-size:12px; display:block">R$ 190,00</s></span>
+                                <span class="navegacao_preco_parcelas">12x R$ 10,33</span>
+                                <span class="navegacao_box_frete_gratis"> Frete grátis </span>              
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="columns">
+                    <div class="card">
+                        <div class="card-section navegacao_produto">
+                            <div class="navegacao_desconto_flutuante">
+                                45% </div>
+                            <img src="img/kit-plastico-crf-230-2015-avtec-16819p.jpg" alt="">
+                            <span class="navegacao_nome_produto"><b>Kit Plastico CRF 230</b></span>
+                            <div >
+                                <span class="navegacao_preco_vista"><b>R$ 45,00</b><s style="color:#999999; font-size:12px; display:block">R$ 79,00</s></span>
+                                <span class="navegacao_preco_parcelas">3x R$ 15,00</span>
+                                <span class="navegacao_box_frete_gratis"> Frete grátis </span>              
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div> 
+        <!-- RODA PÉ (FOOTER)-->
+        <footer>
+
+            <div class="row">
+                <div class="column small-6 news">
+                    <h4>NEWSLATER</h4>
+
+                    <p>CADASTRE-SE E RECEBA OFERTAS EM SEU E-MAIL</p>
+                    <ul class="atendimento_lista">
+                        <li class="li">
+                        <input type="text" placeholder="informe seu email" maxlength="40" style="min-width: 120%; border: 0px;"><li>
+                        <li class="li"><input type="button" value="Ok" class="botao_newslater" >
+                        </li>
+                    </ul>
+                </div>
+                <div class="columns small-6 atendimento_footer">
+                    <h4>ATENDIMENTO LÉLA MOTORS</h4> 
+                    <ul >
+                        <li><b>Fale com especialistas</b></li>
+                        <li>(17) 3634-5896</li>
+
+                        <li><b>Horário de atendimento</b></li>
+                        <li>Segunda a sexta: 08:00 as 18:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class=" row fod">
+                <div class="columns small-6  institucional">
+
+                    <ul><li><h4>INSTITUCIONAL</h4></li>
+                        <li><a href="#">Nossa empresa</a></li>
+                        <li><a href="#">TV Léla Motors | Apresentações</a></li>
+                        <li><a href="#">Termos e condiçoes de uso</a></li></ul>
+
+                </div>
+                <div class="column small-6  institucional">
+                    <ul><li><h4>POLÍTICAS</h4></li>
+                        <li><a href="#">Politica de privacidade</a></li>
+                        <li><a href="#">Politica de compra | Fidelidade</a></li>
+                        <li><a href="#">Política de trocas, entrega e devoluções</a></li>
+                    </ul></div>
+            </div>
+
+            <div class="row pagamento">
+                <div class="small-12 column large-4 small-4">
+                    <div><h5>Formas de Pagamento</h5>
+                        <img src="img/formas_pagamento.jpg" alt="" style="min-width: 400px;">
+                    </div>
+                </div>
+                <div class="small-12  columns large-4 small-4">
+                    <div><h5>Redes Sociais</h5>
+                        <img src="img/4.png" alt="" style="max-width: 300px;">
+
+                    </div>
+                </div>
+                <div class="small-12  columns large-4 small-4">
+                    <div><h5>Sergurança</h5>
+                        <img src="img/certisign.jpg" alt="" style="min-width:170px;">
+                        <img src="img/compra_segura.jpg" alt="" style="min-width: 170px;"></div>
+                </div>
+            </div>
+
+        </footer>
+        <!--<script src="js/vendor/jquery.js"></script>-->
+        <script src="js/vendor/what-input.js"></script>
+        <script src="js/vendor/foundation.js"></script>
+        <script src="js/app.js"></script>
+
+    </body>
+</html>
